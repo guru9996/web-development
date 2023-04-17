@@ -1,4 +1,5 @@
 <?php
-echo $_GET['dataList'];
-$dataList = substr($dataList, 1, -1);
-trim($dataList, ' ');
+header("Content-Type: text/html");
+$text = $_GET['text'];
+$text = trim($text);
+echo $text;
