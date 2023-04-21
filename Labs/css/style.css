@@ -61,7 +61,16 @@
 }
 .info__button
 {
-    
+    border: none;
+    outline: none;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 13px 30px 13px;
+    color:white;
+    background: #DD783F;
+    border-radius: 3px;
 }
 .under-header__links
 {
@@ -74,7 +83,7 @@
     
     text-align: center;
     
-    color: #768088;
+    color: #9900ff;
     
 }
 .main
@@ -82,7 +91,7 @@
     background: #F7F7F7;
     border-radius: 0px;
 }
-.feautered-post-block__header
+.block-highouter__header
 {
     font-family: 'Oxygen';
     font-style: normal;
@@ -97,12 +106,19 @@
     color: #2E2E2E;
     
 }
-.feautered-post-block__the-road-ahead
+.block-highouter__content-highouter-adventure
+{
+    background-image: url("../images/pojar.png");
+    background-repeat: no-repeat;
+    height: 280px;
+}
+.block-highouter__content-highouter-road
 {
     background-image: url("../images/sev_s.png");
     background-repeat: no-repeat;
+    height: 280px;
 }
-.the-road-ahead__title
+.content-highouter-road__title
 {
     font-family: 'Lora';
     font-style: normal;
@@ -115,7 +131,7 @@
     color: #FFFFFF;
     
 }
-.the-road-ahead__subtitle
+.content-highouter-road__subtitle
 {
     font-family: 'Oxygen';
     font-style: normal;
@@ -127,7 +143,7 @@
     
     color: rgba(255, 255, 255, 0.7);   
 }
-.the-road-ahead__chmos
+.content-highouter-road__chmos
 {
     font-family: 'Oxygen';
     font-style: normal;
@@ -140,6 +156,48 @@
     color: rgba(255, 255, 255, 0.7);
         
 }
+.content-highouter-adventure__title
+{
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 30px;
+    /* identical to box height, or 111% */
+    
+    
+    color: #FFFFFF;
+    
+}
+.content-highouter-adventure__subtitle
+{
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    /* identical to box height, or 179% */
+    
+    
+    color: rgba(255, 255, 255, 0.7);   
+}
+.content-highouter-adventure__chmos
+{
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 35px;
+    /* identical to box height, or 292% */
+    
+    
+    color: rgba(255, 255, 255, 0.7);
+        
+}
+
+
+
+
 .feautered-post-block__from-top-down
 {
     background-image: url("../images/pojar.png");
@@ -158,7 +216,7 @@
     color: #FFFFFF;
         
 }
-.from-top-down__mark
+.content-highouter-adventure__mark
 {
     font-family: 'Oxygen';
     font-style: normal;
@@ -166,6 +224,16 @@
     font-size: 12px;
     line-height: 13px;
     /* identical to box height, or 108% */
+    border: none;
+    outline: none;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 6px 9px 7px;
+    color:white;
+    background: #DD783F;
+    border-radius: 3px;
     
     text-transform: uppercase;
     
@@ -197,7 +265,29 @@
     color: rgba(255, 255, 255, 0.7);
     
 }
-.most-recent__global-header
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.block__header
 {
     font-family: 'Oxygen';
     font-style: normal;
@@ -212,11 +302,13 @@
     color: #2E2E2E;
     
 }
-.most-recent__still-standing-tall
+.block__content
 {
     background: #FFFFFF;
+    width: 296px;
+
 }
-.still-standing-tall__title
+.content__title
 {
     font-family: 'Lora';
     font-style: normal;
@@ -229,7 +321,7 @@
     color: #101315;
     
 }
-.still-standing-tall__subtitle
+.content__subtitle
 {
     font-family: 'Oxygen';
     font-style: normal;
@@ -242,9 +334,10 @@
     color: #7A7A7A;
     
 }
-.still-standing-tall__author-info
+.content__author-info
 {
     background-color: #FCFCFC;
+    width: 296px;
 }
 .author-info_name
 {
@@ -272,203 +365,15 @@
     color: #999999;
         
 }
-.most-recent__sunny-side-up
-{
-    background: #FFFFFF;
-    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.09);
-    border-radius: 3px;    
-}
-.sunny-side-up__title
-{
-    font-family: 'Lora';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 21px;
-    /* identical to box height, or 131% */
-    
-    
-    color: #101315;
-    
-}
-.sunny-side-up__subtitle
-{
-    font-family: 'Oxygen';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 19px;
-    /* or 146% */
-    
-    
-    color: #7A7A7A;
-    
-}
-.sunny-side-up__author-info
-{
-    background-color: #FCFCFC;
-}
-.author-info__name
-{
-    font-family: 'Oxygen';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 35px;
-    /* identical to box height, or 292% */
-    
-    
-    color: #999999;    
-}
-.author-info_date
-{
-    font-family: 'Oxygen';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 35px;
-    /* identical to box height, or 292% */
-    
-    
-    color: #999999; 
-}
-.most-recent__water-falls
-{
-    background-color: #FFFFFF;
-}
-.water-falls__title
-{
-    font-family: 'Lora';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 21px;
-    /* identical to box height, or 131% */
-    
-    
-    color: #101315;    
-}
-.water-falls__subtitle
-{
-    font-family: 'Oxygen';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 19px;
-    /* or 146% */
-    
-    
-    color: #7A7A7A;
-}
-.water-falls__author-info
-{
-    background-color:#FCFCFC;
-}
-.most-recent__through-the-mist
-{
-    background-color: #FFFFFF;
-}
-.through-the-mist__title
-{
-    font-family: 'Lora';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 21px;
-    /* identical to box height, or 131% */
-    
-    
-    color: #101315;
-    
-}
-.through-the-mist__subtitle
-{
-    font-family: 'Oxygen';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 19px;
-    /* or 146% */
-    
-    
-    color: #7A7A7A;
-}
-.through-the-mist__author-info
-{
-    background-color: #FCFCFC;
-}
-.most-recent__awaken-early
-{
-    background-color: #FFFFFF;
-}
-.awaken-early__title
-{
-    font-family: 'Lora';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 21px;
-    /* identical to box height, or 131% */
-    
-    
-    color: #101315;
-    
-}
-.awaken-early__subtitle
-{
-    font-family: 'Oxygen';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 19px;
-    /* identical to box height, or 146% */
-    
-    
-    color: #7A7A7A;   
-}
-.awaken-early__author-info
-{
-    background-color: #FCFCFC;
-}
-.most-recent__try-it-always
-{
-    background-color: #FFFFFF;
-}
-.try-it-always__title
-{
-    font-family: 'Lora';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 21px;
-    /* identical to box height, or 131% */
-    
-    
-    color: #101315;
-    
-}
-.try-it-always__subtitle
-{
-    font-family: 'Oxygen';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 19px;
-    /* or 146% */
-    
-    
-    color: #7A7A7A;
-}
-.try-it-always__author-info
-{
-    background-color: #FCFCFC;
-}
+
 .footer
 {
     background-image: url("../images/footer_background.png");
     background-image: url("../images/footer_background_picture.png");
+    background-repeat: no-repeat;
+    height: 89px;
 }
-.title__footer
+.footer__title
 {
     font-family: 'Lora';
     font-style: normal;
@@ -498,20 +403,27 @@
 }
 a:link {
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.6);
+    color: #768088;;
 }
 
 a:visited {
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.6);
+    color: #768088;;
 }
 
 a:hover {
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.6);
+    color: #768088;;
 }
 
 a:active {
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.6);
+    color: #768088;;
 } 
+
+
+
+
+
+
+
