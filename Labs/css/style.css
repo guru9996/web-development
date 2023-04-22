@@ -203,19 +203,7 @@
     background-image: url("../images/pojar.png");
     background-repeat: no-repeat;
 }
-.from-top-down__title
-{
-    font-family: 'Lora';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 27px;
-    line-height: 30px;
-    /* identical to box height, or 111% */
-    
-    
-    color: #FFFFFF;
-        
-}
+
 .content-highouter-adventure__mark
 {
     font-family: 'Oxygen';
@@ -240,50 +228,6 @@
     color: #FFFFFF;
     
 }
-.from-top-down__subtitle
-{
-    font-family: 'Oxygen';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 25px;
-    /* identical to box height, or 179% */
-    
-    
-    color: rgba(255, 255, 255, 0.7);   
-}
-.from-top-down__chmos
-{
-    font-family: 'Oxygen';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 11px;
-    line-height: 35px;
-    /* identical to box height, or 318% */
-    
-    
-    color: rgba(255, 255, 255, 0.7);
-    
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -372,9 +316,11 @@
     background-image: url("../images/footer_background_picture.png");
     background-repeat: no-repeat;
     height: 89px;
+    margin: 0px;
 }
 .footer__title
 {
+    margin: 0px;
     font-family: 'Lora';
     font-style: normal;
     font-weight: 400;
