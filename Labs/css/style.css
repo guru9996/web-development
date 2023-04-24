@@ -99,7 +99,8 @@
     font-size: 20px;
     line-height: 27px;
     /* identical to box height, or 135% */
-    
+    text-decoration: underline;
+    text-decoration-color: #DEDEDE;
     text-align: center;
     letter-spacing: 2px;
     
@@ -239,7 +240,8 @@
     font-size: 20px;
     line-height: 27px;
     /* identical to box height, or 135% */
-    
+    text-decoration: underline;
+    text-decoration-color: #DEDEDE;
     text-align: center;
     letter-spacing: 2px;
     
@@ -312,27 +314,26 @@
 
 .footer
 {
-    background-image: url("../images/footer_background.png");
-    background-image: url("../images/footer_background_picture.png");
+    background-image: url("../images/footer-background.png");
     background-repeat: no-repeat;
-    height: 89px;
+    height: 378px;
     margin: 0px;
 }
-.footer__title
+.info-lowest__title
 {
-    margin: 0px;
     font-family: 'Lora';
     font-style: normal;
     font-weight: 400;
     font-size: 26px;
     line-height: 26px;
     /* identical to box height, or 100% */
-    
+    margin: 0px;
     
     color: #FFFFFF;
+    
         
 }
-.footer__links
+.info-lowest__links
 {
     font-family: 'Oxygen';
     font-style: normal;
@@ -366,6 +367,50 @@ a:active {
     text-decoration: none;
     color: #768088;;
 } 
+.main__title
+{
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    /* identical to box height, or 120% */
+    text-decoration: underline;
+    text-align: center;
+    
+    color: #EFEFEF;
+    
+}
+.form__item-input
+{
+    border: none;
+    outline: none;
+    display: inline-block;
+    text-align: left;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 13px 30px 13px;
+    color:white;
+    background: #ffffff;
+    border-radius: 3px;  
+    width: 375px;
+    
+}
+.form__item-button
+{
+    border: none;
+    outline: none;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 13px 30px 13px;
+    color:white;
+    background: #ffffff;
+    border-radius: 3px;  
+    opacity: 28%;
+    
+}
 
 
 
