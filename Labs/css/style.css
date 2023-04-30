@@ -364,13 +364,14 @@
 .content__author-info
 {
     background-color: #FCFCFC;
-    width: 296px;
+    width: 286px;
     display: flex;
     flex-direction: row;
     align-items: center;
     height: 48px;
     gap: 10px;
     border-top: #EFEFEF solid;
+    padding-left: 10px;
 }
 .author-info__detales
 {
@@ -398,6 +399,7 @@
     line-height: 35px;
     color: #999999;
     padding-left: 10px;
+    padding-right: 10px;
 }
 .footer__main
 {
@@ -457,6 +459,11 @@
     padding-right: 220px;
 }
 a:link 
+{
+    color: #999999;
+    text-decoration: none;
+}
+a:hover
 {
     color: #999999;
     text-decoration: none;
