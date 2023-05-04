@@ -45,7 +45,7 @@
     line-height: 20px;
     letter-spacing: 0.6px;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: white;
 }
 .block-highouter__underline
 {
@@ -122,6 +122,7 @@
     line-height: 20px;
     margin: 10px;
     padding-left: 270px;
+    color: #999999;
 }
 .body__main
 {
@@ -148,7 +149,7 @@
     display: flex;
     flex-direction: row;
     padding-top: 20px;
-    padding-left: 250px;
+    padding-left: 260px;
     
 }
 .block-content__content-highouter-adventure
@@ -441,7 +442,7 @@
     padding-left: 250px;
 
 }
-.info-lowest__links
+.info-lowest__links 
 {
     font-family: 'Oxygen';
     font-style: normal;
@@ -451,21 +452,37 @@
     text-align: right;
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: rgba(255, 255, 255, 0.6); 
+    color: white; 
     display: flex;
     flex: row;
     align-items: center;
     gap: 30px;
     padding-right: 220px;
+    text-decoration: none;
+}
+.links__link
+{
+    color: white;
+}
+.links__link-under-header
+{
+    color: #999999;
 }
 a:link 
 {
-    color: #999999;
     text-decoration: none;
 }
 a:hover
 {
-    color: #999999;
+    text-decoration: none;
+}
+a::after
+{
+    text-decoration: none;
+
+}
+a 
+{
     text-decoration: none;
 }
 .main__title
@@ -507,18 +524,18 @@ a:hover
 }
 .form__item-button
 {
+    text-align: center;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 1);
+    padding: 20px 30px 20px;
     border: 1px solid;
     border-radius: 0px 5px 5px 0px;
     outline: none;
-    border-color: #ffffff;
+    border-color: rgba(255, 255, 255, 0);
     display: inline-block;
-    text-align: center;
-    cursor: pointer;
-    background: #ffffff; 
-    opacity: 50%;
-    padding: 20px 30px 20px;
-    
+    background-color: rgba(255, 255, 255, 0.3);
 }
+
 .main__underline
 {
     width: 188px;
